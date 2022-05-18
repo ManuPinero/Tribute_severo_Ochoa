@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F7F6F2;
 }
 
 h1 {
@@ -29,6 +30,7 @@ h1 {
     width: 50%;
     display: inline-block;
     background-color: #F7F6F2;
+    font-family: "Playfair Display";
 }
 
 #image {
@@ -45,7 +47,23 @@ h1 {
 
 #tribute-info {
     color: #868585;
+    font-family: "Playfair Display";
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    top: 45rem;
+    left: 30rem;
+    width: 40%;
+    background-color: #F7F6F2;
 }
 #tribute-info h3{
     color: #4B6587;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #F7F6F2;
+    
+}
+
+#tribute-info li{
+    padding: 0.5rem;
 }
