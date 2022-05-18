@@ -1,2 +1,3 @@
-# Tribute_severo_Ochoa
-Tribute page Severo Ochoa
+# Tribute to Severo Ochoa
+
+Design project and creation of a tribute page to the Spanish doctor and scientist Severo Ochoa
