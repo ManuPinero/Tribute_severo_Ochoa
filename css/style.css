@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+#main {
+    text-align: center;
+    background-color: #F7F6F2;
+    
+}
+
+#title {
+    color: #4B6587;
+    font-family: "Playfair Display";
+    padding: 3rem 3rem 0.3rem;
+    font-size: 1.7rem;
+}
+
+#title p{
+    margin: 0;
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+}
+
+#img-div {
+    background-color: white;
+    width: 50%;
+    display: inline-block;
+    background-color: #F7F6F2;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 4px -4px 10px 2px #868585;
+}
+
+#img-caption{
+    color: #868585;
+    padding: 0.3rem;
+    border: 0;
+}
+
+#tribute-info {
+    color: #868585;
+}
+#tribute-info h3{
+    color: #4B6587;
+}
