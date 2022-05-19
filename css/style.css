@@ -12,6 +12,11 @@ h1 {
     
 }
 
+
+
+
+/* Title */
+
 #title {
     color: #4B6587;
     font-family: "Playfair Display";
@@ -25,12 +30,17 @@ h1 {
     font-size: 1.4rem;
 }
 
+
+
+/* Image */
+
 #img-div {
     background-color: white;
-    width: 50%;
-    display: inline-block;
+    width: 65%;
     background-color: #F7F6F2;
     font-family: "Playfair Display";
+    position: relative;
+    margin: auto;
 }
 
 #image {
@@ -40,30 +50,68 @@ h1 {
 }
 
 #img-caption{
-    color: #868585;
+    color: #5b5959;
     padding: 0.3rem;
     border: 0;
 }
 
+
+
+
+/* Chronology */
+
 #tribute-info {
-    color: #868585;
+    color: #5b5959;
     font-family: "Playfair Display";
-    display: inline-block;
-    position: absolute;
     text-align: left;
-    top: 45rem;
-    left: 30rem;
-    width: 40%;
+    width: 55%;
     background-color: #F7F6F2;
+    position: relative;
+    margin: auto;
+    font-size: 1.1rem;
 }
 #tribute-info h3{
     color: #4B6587;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center;
     background-color: #F7F6F2;
-    
 }
 
 #tribute-info li{
     padding: 0.5rem;
+}
+
+.phrase {
+    padding: 1.2rem 1.3rem 0.5rem;
+}
+
+.phrase p {
+    margin: 0;
+    padding-bottom: 0.3rem;
+}
+
+.plink{
+    display: inline-block;
+    position: relative;
+    right: 4.2rem;;
+    width: 120%;
+    padding: 2rem;
+}
+#tribute-link{ 
+    color:#4B6587;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    padding-bottom: 2rem;
+}
+
+.footer p {
+    display: inline-block;
+    position: relative;
+    padding-left: 1rem;
+    margin: 0;
+    bottom: 0.8rem;
+    font-family: "Playfair Display";
 }
